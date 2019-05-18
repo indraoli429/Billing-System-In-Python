@@ -56,4 +56,4 @@ Lets hope, you will get this product after next shopping
 - Step 15:	 End.
 
 ## Flowchart
-![Flowchart](https://github.com/khillsman3/Electronic_Store_Python_Program/edit/master/Flowchart "Flowchart")
+![Flowchart](https://github.com/khillsman3/Electronic_Store_Python_Program/raw/master/Flowchart "Flowchart")
