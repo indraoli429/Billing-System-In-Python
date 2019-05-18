@@ -22,3 +22,16 @@ This task will be useful for understudies, programmer, software engineers, analy
 Adjacent to PC, no an equipment is required however in programming we utilize python IDLE which ought to be installed in computer.
 ## Scope of the project 
 This undertaking outlines the thoughts and techniques for composing programs in pythons utilizing loop concept. It additionally comprises algorithm, pseudocode, flowchart and data structure of the program. therefore, this undertaking will be extremely useful for every one of those understudies, programmer, software engineers and python learner students to discover how the code execute and work in the program. Similarly, It will instruct the strategy of different data structure which has been utilized as a part of the program. At last, as the program is composed with great clarification in each progression so it will help every one of those students who discover trouble in python.
+
+## Features of the project
+The features of this program as follows;
+1. To build a program which work in loop statement and show accessible items which are stored in text file. The program should wait for user to enter purchase details of interest. Program should not close or stop until and unless the user chooses to do as such.
+2. Program had user interacts features which is request every question with customer and react that answer provide by customer.
+3. Program had exception handling feature which is used when unexpected entered from user. Like, program expect to the integer value from customer but customer entered a string value then program request for integer value.
+4.Interconnect the different module in main module for easy to run the full program. Like, read, write, and purchase module are connect with main module.
+5. Program can read text file and overwrite or write new text file. In this program, I used products.txt file for store a data and read and overwrite on it.
+6. Similarly, program create a unique invoice in text file format and its naming from current device date and time.
+
+## Discussion and analysis
+This program was developed by using python official IDLE as name ‘Python IDLE’. In the overall program, I create a four-different module ‘read’, ‘write’, ‘purchase’ are connected to ‘main module’. All module has own work and finally main module call value and instruction from remaining three modules. In the processing of the program I used text file for read data and work on it.
+After the coding part of the program we construct the flowchart for easier to understand how the program works. Flowchart is the graphical representation of the program, I construct the flowchart using Microsoft Visio 2010, alternatively I used the online tool which link is [draw.io](www.draw.io "Draw.io Homepage")
