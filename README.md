@@ -9,8 +9,8 @@ The issue offered was to build up an application which read the text document an
 The fundamental focus of this coursework is to take in the idea of programming in python and can compose a program for the given command. Similarly, another target of this coursework is learning the concept of file read and write in python programming language and know almost data structure in python. To achieve this aim will be made to finish all the work in the given time frame. Additionally, more research and study relating with this errand will be made.
 ## Purposed approach
 To solve all the given work in this coursework, certain methodologies will be made which are follows.
-..*At the primary, study and research will be done to take care of the issue of building up a program and its related point. 
-..* Then a program will be made in python which will coordinate the given instruction. 
+..*. At the primary, study and research will be done to take care of the issue of building up a program and its related point. 
+..*. Then a program will be made in python which will coordinate the given instruction. 
 ..* Data structures required for composing the program will be chosen according to requirement of the given instruction of program.
 ..* An algorithm of the program will be built where everything the program wills be considered. 
 ..* A flowchart will be drawn to indicate how a code execute and work in the program. It is easy to understand how our program work in the real time.
