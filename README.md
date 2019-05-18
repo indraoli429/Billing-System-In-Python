@@ -54,3 +54,6 @@ Lets hope, you will get this product after next shopping
 - Step 13:	Invoice is printed with customer name, date and time purchase. Products details, Grand total and at last Thank You customer for your shopping. See you again!
 - Step 14: 	If more customers are there to purchase item ‘Y’ should be clicked and go to step or else end.
 - Step 15:	 End.
+
+## Flowchart
+![alt text](https://github.com/khillsman3/Electronic_Store_Python_Program/edit/master/Flowchart.png "Flowchart")
