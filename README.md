@@ -220,4 +220,26 @@ write in file for invoice
     write bill in newly generated file
 output  invoice
 ```
-
+## Data structures
+A data structure is a way of organizing and storing data in a program, and it can be modified and accessed easily later. Basically, data structures have two types one is primitive data types like, integer, float, string. And another is collection data types like, list, tuples, dictionary etc. But this program the following data structure which has been used; list, dictionaries, string, integer and float.
+### Primitive data types
+In this program, I used some primitive data types, which are as follows with description.
+#### Integer: 
+Integer represent the whole number and integer is denoted by ‘int’ in program. In this program integers are used for many purpose, like, in the purchase module ask the quantity of product with customer and there except integer value from customer. Similarly, for calculate the quantity stock of product also used integer value.
+#### Float: 
+Float represent the decimal number and float is denoted by ‘float’ in program. In this program float are used some special calculation like, when customer except some discount percentage from store then there will be calculated in float and final customer payable amount also calculate in float data types. 
+#### String: 
+String represent or carry the alphabet value and in the program, it is initialized by ‘str’.in this program strings are used mainly file write process because text file is not support integer, float or any data types except string. When creating an invoice or update a stock of store there will need to be convert any data into string.
+### Collection data types
+In this program, I used some collection data types, which are as follows with description.
+#### List: 
+List is the mostly used collection data types it is an ordered sequence of items where it consists different data types. List are mutable data types it has modified easily after assign. In this program, I used list in ‘read’ module for storing a data from given text file. And there is another module ‘purchase’ where I used a list for calling the value form ‘read’ module. Similarly, in the ‘write’ module I also used same list for the update stock of store after each purchase.
+#### Dictionaries: 
+Dictionaries are unordered collection data types where it consists various data types. It has different indexing style like, key and value, where key represent the cross-ponding value. In this program, I used a dictionary in ‘purchase’ module for add every product customer want to buy and display after chosen. In the ‘write’ module for updating a stock of product after each purchase.
+### Program
+This python program creating an invoice after every purchase an it can update inventory stock after each purchase. In the time when I was doing this program, many problems were created but after continuity of research and with help of our module leader and instructor, that problems were done as a solution.
+This is a modular programming method. This programming is done by creating a different module into functions and files. This helps to understand the program and easy to accessible. For this program, I divided four different module which are as follows;
+- read.py: in this read module, read_file function works on file as read mode and it creates an empty list. In that empty list, stored data from text file which have some data of store.
+- purchase.py: In this module, it brings a list from read module. And ask the question for what product do want to purchase customer. Similarly, ask for quantity for that product. When user entered value are matched in the list and execute the calculation for choose product. After than ask the discount percentage, when these all operation done then purchase module act on invoice. Finally, it creates a unique invoice for purchase. 
+- write.py: In this module, after each purchase it collect data from purchase and update in stock file(products.txt). for example, customer purchase 10 laptop out of 50 then update stock file will must be remaining 40 laptops only.
+- Main.py: This module collects all information and data from remaining three modules and execute from here.
