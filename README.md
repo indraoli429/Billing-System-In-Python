@@ -57,3 +57,167 @@ Lets hope, you will get this product after next shopping
 
 ## Flowchart
 ![Flowchart](https://github.com/khillsman3/Electronic_Store_Python_Program/raw/master/Flowchart "Flowchart")
+
+## Pseudocode for write.py
+```python
+Algorithm write(List,Dictionary):
+   L is set to List # list was assigned to 'L' variable
+    d is set to Dictionary 
+    for keys in d.keys():
+        If keys is equals to"PHONE" then
+            L[0][2] is set to str(int(L[0][2])-d['PHONE']) 
+        else if  keys is equals to"LAPTOP" then
+            L[1][2] is set to str(int(L[1][2])-d['LAPTOP']) 
+        else:
+            L[2][2] is set to str(int(L[2][2])-d['HDD'
+    output(L)
+        
+    files is set to open("products.txt","w")  
+    for each in L:
+        write on files(str(",".join(each)))
+        write on files ("\n")        
+    write on files () 
+```
+## gorithm read():
+```python
+    file is set to open("products.txt","r") 
+    lines is set to file.readlines() 
+    L is set to [] 
+    for line in lines:
+        L.append(line.replace("\n","").split(","))
+    file.close() 
+    for i in range(len(L)):
+        output(L[i][0],"\t PRICE: ",L[i][1],"\t QUANTITY: ",L[i][2]) #  the availability, price and quantity of the product will output 
+    return L 
+```
+## Pseudocode for Main.py
+```python
+import  from read
+import from purchase
+import from write
+again is set to "Y"
+while again in upper case is equals to"Y":
+    a is set to read.readfile()
+    b is set to purchase.purchase(a)
+    	write.over_write(a,b)
+    	again is set to input(" ")
+output("")
+```
+
+## Pseudocode for purchase.py
+```python
+algorithm purchase(List): 
+    L is set to List 
+    name is set to input proper message 
+    q is set to create dictionary
+    flag is set to "Y"
+    while answer in upper case is equals to "Y":  
+        product is set to input  proper message
+        product_name is set to product_type in upper case
+        
+        If product_name is equals to L[0][0] in upper case or product_type1 is equals to      L[1][0] in upper case or product_name is equals to L[2][0] in upper case: 
+            p is set to True
+            while p is equals to True:
+                try:
+                    p_quantity is set to int(input("How many "+product+" do you want to buy: "))
+                    p is set to False
+                except:
+                    output ("Error!!!,Please enter correct integer value!! ") 
+            If product_name is equals to L[0][0] in upper case and p_quantity is less than or equals to int(L[0][2]):       
+                q[product_name] is set to p_quantity   
+            else If  product_name is equals to L[1][0] in upper case and p_quantity is less than or equals to int(L[1][2]):
+                    q[product_name] is set to p_quantity
+            else If  product_name is equals to L[2][0] in upper case and p_quantity is less than or equals to int(L[2][2]):
+                    q[product_name] is set to p_quantity
+            else:
+                output ("\nSorry!! "+a_name+"!, "+product+" is out of stock.\nWe will add stock of "+product+" later. \nLets hope, you will get this product after next shopping.\n.")    
+             end If   
+            answer is set to (input("a_name+" do you want buy more products?(Y/N)" ))
+        else:
+            output ("sorry!! "+product+" is not available in our store..")
+	output ("\nChoose from following products please!")
+	output ("PRODUCT\t\tPRICE\t\tQUANTITY")
+            for i in range(len(L)):
+           end while
+                output ("PRODUCT AVAILABLE: ",L[i][0],"\t PRICE: ",L[i][1],"\t QUANTITY: ",L[i][2]) 
+     
+        output  (\nYou Choosed Items and it's Quantity respectively:\n")       
+    output  (q)
+    
+    #for invoice
+    f_amount is set to 0
+    for keys in q.keys():
+        If keys is equals to L[0][0] in upper case: 
+            p_price is set to int(L[0][1])
+            p_num is set to int(q[keys])
+            p_amount is set to (p_price *number1)
+            f_amount+ is set to (p_price *number1)
+            output ("\nTotal cost for phone: ",p_amount) 
+        else If  keys is equals to L[1][0] in upper case: 
+            l_price  is set to int(L[1][1])
+            l_num is set to int(q[keys])
+            l_amount is set to (l_price *number2)
+            f_amount + is set to (l_price *number2)
+            output ("Total cost for laptop: ",l_amount)
+        else:                        .
+            h_price is set to int(L[2][1])
+            h_num is set to int(q[keys])
+            h_amount is set to (h_price *number3)
+            f_amount + is set to (h_price *number3)
+            output ("\nYour discountable total amount is: ", f_amount)
+          end If
+    disc is discount(float(input("Please enter your expected discount (%): ")))
+   dis is inatilized with 0.0
+if f_amount is greater than 5000 and less than 10000
+	put the value of discount disc 
+	if discount is less than 5.0
+		dis is calculate (discount*f_amount)/100
+		total is float(f_amount-dis)	
+    		output ("You got your expected "+str(disc)+"% discount and amount is: ",dis)     
+	else discount is greater than 5.0  
+		discount is similar to 5.0 
+		dis is calculate (discount*f_amount)/100
+		total is float(f_amount-dis)	
+    		output ("You did not got your expected "+str(disc)+"% discount\nBecause, your totel purchase is not meet the minimum criteria for "+str(disc)+"% discount.")
+		output("You got basic 5% discount and discounted amount is:",dis)
+    elif (f_amount>=10000):     
+
+if f_amount is greater 10000
+	put the value of discount disc 
+	if discount is less than 10.0
+		dis is calculate (discount*f_amount)/100
+		total is float(f_amount-dis)	
+    		output ("You got your expected "+str(disc)+"% discount and amount is: ",dis)     
+	else discount is greater than 10.0  
+		discount is similar to 10.0 
+		dis is calculate (discount*f_amount)/100
+		total is float(f_amount-dis)	
+    		output ("You did not got your expected "+str(disc)+"% discount\nBecause, your totel purchase is not meet the minimum criteria for "+str(disc)+"% discount.")
+		output("You got basic 10% discount and discounted amount is:",dis)
+else 
+discount is 0.0
+ total is float(f_amount)
+import date and time from current device
+open file (invoice+" ("+a_name+").txt","w")  #unique file name open it on writing mode
+write in file for invoice
+    write on a file ("\nELECTRONIC STORE\t\t\t\tINVOICE")
+    write on a file ("\n\nInvoice: "+invoice+"\t\tDate: "+d+"\n\t\t\t\t\tTime: "+e+"")
+    write on a file ("\nName of Customer: "+str(a_name)+"")
+    write on a file ("\nPARTICULAR\tQUANTITY\tUNIT PRICE\tTOTAL")                               
+    for keys in q.keys():           #In this loop, write in a file only those product which is purchase by user.
+        if key is equal to "PHONE":
+            write on a file (str("\n"+str(keys)+" \t\t "+str(q['PHONE'])+" \t\t "+str(L[0][1])+" \t\t "+str(p_amount)))
+        elif keys is equal to "LAPTOP":
+            write on a file (str("\n"+str(keys)+" \t\t "+str(q['LAPTOP'])+" \t\t "+str(L[1][1])+" \t\t "+str(l_amount)))
+        else: 
+            write on a file (str("\n"+str(keys)+" \t\t "+str(q['HDD'])+" \t\t "+str(L[2][1])+" \t\t "+str(h_amount)))
+    write on a file ("\n\t\t\tYour discountable amount: "+str(f_amount))
+    write on a file ("\n\t\t   Your "+str(discount)+"% discounted amount is: "+str(dis))
+    write on a file ("\n\t\t\t Your payable amount is: "+str(total))
+    write on a file("\n\n\tThank You "+a_name+" for your shopping.\n\t\tSee you again!")
+    closed the file
+    generate bill using unique code, customer’s name,total and discount , 
+    write bill in newly generated file
+output  invoice
+```
+
