@@ -257,3 +257,9 @@ Similarly, it has helped me to achieve the new level of the imagination and have
 From the overall coursework, it gives me a knowledge about not only python programming language, flowchart and pseudocode also helps to Java programming language as well. This coursework is quite tough then I expect, In the first week of this coursework I feel it is easy to create a program as a requirement. But , this  is hard to finish. Finally, it happens good and program is also done with the help of teachers as well as senior friends.  
 
 Hence indisputably, the coursework has been an amazing help to learn and get the more information about the python programming language. Moreover, it has helped me in additionally creating distinctive different ability and educated numerous things which will help in my profession life in future. This undertaking has still got spaces for the change. At long last, I foresee accomplishing more undertakings in coming future
+
+
+## Picture Evidence
+![Picture Evidence (Testing sample)](https://github.com/khillsman3/Electronic_Store_Python_Program/raw/master/py.JPG "Black Box Testing")
+
+![Picture Evidence (Black Box Testing)](https://github.com/khillsman3/Electronic_Store_Python_Program/raw/master/pyy.JPG "Generated invoice")
