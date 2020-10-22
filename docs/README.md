@@ -1,5 +1,8 @@
 # Inventory Management System in Python (Electronic Store)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4118113.svg)](https://doi.org/10.5281/zenodo.4118113)
+****
+[back to repo](https://github.com/indraoli429/Billing-System-In-Python)
+****
 ## (Full Documentation)
 It is tied in with composing a program in python of an electronic store that offers electronic machines like phone, laptop and HDD etc.
 
@@ -264,3 +267,7 @@ Hence indisputably, the coursework has been an amazing help to learn and get the
 ![Picture Evidence (Testing sample)](https://github.com/khillsman3/Electronic_Store_Python_Program/raw/master/py.JPG "Black Box Testing")
 
 ![Picture Evidence (Black Box Testing)](https://github.com/khillsman3/Electronic_Store_Python_Program/raw/master/pyy.JPG "Generated invoice")
+
+****
+[back to repo](https://github.com/indraoli429/Billing-System-In-Python)
+****
